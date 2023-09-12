@@ -81,7 +81,7 @@ titanic에서 3번째 과제를 다음과 같이 했는데, 답을 모르겠습�
 
 
 # 절대경로, 상대경로
-![경로](https://github.com/onukki/insight-10th/assets/144572748/0622dd94-1816-4af3-ae2f-ce30db746097)
+![경로](https://github.com/onukki/insight-10th/assets/144572748/0622dd94-1816-4af3-ae2f-ce30db746097){: width="100" height="100"}
 
 |  | 절대경로 | 상대경로 |
 | --- | --- | --- |
@@ -94,7 +94,7 @@ titanic에서 3번째 과제를 다음과 같이 했는데, 답을 모르겠습�
 
 현재 작업 디렉토리 -  /content/drive/MyDrive/MyPythonFiles/TextFiles/A
 ```
-![경로2](https://github.com/onukki/insight-10th/assets/144572748/caf319f0-549a-4c87-867c-285d9833e0bc)
+![경로2](https://github.com/onukki/insight-10th/assets/144572748/caf319f0-549a-4c87-867c-285d9833e0bc){: width="100" height="100"}
 
 ```
 > 오류 (파일이 열리지 않음)
@@ -170,12 +170,12 @@ ex) [234,234, 267, 1, 200, 245, 300, 199, 250, 8999, 245] -> 이상치 : 1, 8999
 2) 시각화를 통해 확인 (BoxPlot) -> 분석가의 자의적인 판단이 반영되거나 일일이 수치를 확인해야 하는 번거로움 존재
 3) Z-score
 ```
-![Z-score](https://github.com/onukki/insight-10th/assets/144572748/003b8c40-882b-4164-bf11-ddeef7afa682)
+![Z-score](https://github.com/onukki/insight-10th/assets/144572748/003b8c40-882b-4164-bf11-ddeef7afa682){: width="100" height="100"}
 
 ```
 4) Tukey Fences
 ```
-![Tukey Fences](https://github.com/onukki/insight-10th/assets/144572748/95faa2b4-0789-4f6c-9906-5c7fbbb50f32)
+![Tukey Fences](https://github.com/onukki/insight-10th/assets/144572748/95faa2b4-0789-4f6c-9906-5c7fbbb50f32){: width="100" height="100"}
 
 
 **4. 이상치 처리**
