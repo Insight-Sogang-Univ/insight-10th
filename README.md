@@ -240,11 +240,20 @@ ex) [234,234, 267, 1, 200, 245, 300, 199, 250, 8999, 245] -> 이상치 : 1, 8999
 - 가장 자주 사용하는 방법 : Log 함수
 - 유사하지만 좀 덜 자주 사용되는 방법 : 제곱근을 취함
 - 라이브러리 임포트 : from sklearn.preprocessing import StandardScaler, MinMaxScaler, QuantileTransformer, RobustScaler
-
+```
+```
 <StandardScaler>
 각 feature의 평균을 0, 분산을 1로 변경
+```
+![StandardScaler](https://github.com/onukki/insight-10th/assets/144572748/38f6930f-5898-4289-94d3-12e21acd6551)
+
+```
 <MinMaxScaler>
 모든 feature가 0과 1사이에 위치하게 만듦
+```
+![MinMaxScaler](https://github.com/onukki/insight-10th/assets/144572748/7e537370-8613-4a66-93e4-8c25dd4fa811)
+
+```
 <RobustScaler>
 모든 feature가 같은 크기를 갖는다는 점에서 StandardScalaer와 비슷
 but 평균과 분산 대신 median과 quartile 사용
