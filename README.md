@@ -79,3 +79,21 @@ titanic에서 3번째 과제를 다음과 같이 했는데, 답을 모르겠습�
 - 사전 과제 필수 키워드에 대해서는 정리/리뷰 하셔야 합니다.
 - 사전 학습 정리는 자유 분량입니다.
 - 문제를 못 풀었다면 어디까지 생각하고 접근했는지 Readme에 기록해주세요!
+
+
+# 절대경로, 상대경로
+![img.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2b0eed7c-6b6d-4a76-8986-a4dc50686437/img.png)
+
+|  | 절대경로 | 상대경로 |
+| --- | --- | --- |
+| 정의 | 최상위 디렉토리(파일의 root)부터 시작하여 목적지까지의 전체적인 경로 | 현재 디렉토리를 기준으로 상위, 하위 디렉토리를 이동하며 표현되는 경
+로 |
+| 특징 |  최상위 / 를 포함 | 최상위 / 를 거치지 않고도 이동이 가능함 |
+| 예시 | C:\Program Files\Git | /content/drive/MyDrive |
+
+
+
+
+
+# read file in python
+# preprocessing in data science
