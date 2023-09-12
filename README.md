@@ -93,8 +93,7 @@ titanic에서 3번째 과제를 다음과 같이 했는데, 답을 모르겠습�
 > 추가 예시
 
 현재 작업 디렉토리 -  /content/drive/MyDrive/MyPythonFiles/TextFiles/A
-![download](https://github.com/onukki/insight-10th/assets/144572748/8453491f-994c-4a5c-ac04-6072eb1922d0)
-
+![경로2](https://github.com/onukki/insight-10th/assets/144572748/caf319f0-549a-4c87-867c-285d9833e0bc)
 ```
 
 ```
@@ -142,11 +141,13 @@ df=pd.read_csv('경로/파일명.csv',encoding='CP949')
 ```
 
 ### 데이터 세트 확인
+````
 - 질적·범주형 <-> 양적·수치형
 - 양적·수치형 데이터 중 트랜드가 보이면 연속형, 트렌드가 없다면 이산형으로 구분
 - ex) 지하철 출입문 : [질적·범주형] 열차의 종류와 호선
                        [양적·수치형] 출입문이 닫히는 동작 시간 -> 연속형 변
                                     장애물 검지 횟수 -> 이산형 변수
+```
 
 ### 결측값 처리
 1. 결측값이란
@@ -157,10 +158,13 @@ df=pd.read_csv('경로/파일명.csv',encoding='CP949')
 4. 결측값 처리 방법
 
 ### 이상값 처리
+```
 1. 이상치란
    - 기존 데이터들과 거리가 먼 데이터
    ex) [234,234, 267, 1, 200, 245, 300, 199, 250, 8999, 245] -> 이상치 : 1, 8999
+```
 
+```
 2. 이상치 확인
    1) **df.describe()**
    2) 시각화를 통해 확인 (BoxPlot) -> 분석가의 자의적인 판단이 반영되거나 일일이 수치를 확인해야 하는 번거로움 존재
@@ -174,8 +178,10 @@ df=pd.read_csv('경로/파일명.csv',encoding='CP949')
    ![Z-score](https://github.com/onukki/insight-10th/assets/144572748/8fb19aae-3ceb-408f-97c4-08cbc54a95da)
    4) Tukey Fences
    ![Tukey Fences](https://github.com/onukki/insight-10th/assets/144572748/dc262513-dc0c-412c-bdc0-caf7f990fafc)
-   -> 이상치 : Q1 - (1.5 * IQR) 미만 | Q3 + (1.5 * IQR) 초과 
+   -> 이상치 : Q1 - (1.5 * IQR) 미만 | Q3 + (1.5 * IQR) 초과
+```
 
+```
 4. 이상치 처리
    1) 전체 삭제
       - 해당 관측치를 삭제
@@ -189,6 +195,7 @@ df=pd.read_csv('경로/파일명.csv',encoding='CP949')
    5) 리샘플링
       - 자연발생한 이상값을 처리하는 또 다른 방법으로, 이상값을 포함한 모델과 제외한 모델을 모두 만들고 각각의 모델에 대한
         설명
+```
       
       
 
