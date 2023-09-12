@@ -82,14 +82,14 @@ titanic에서 3번째 과제를 다음과 같이 했는데, 답을 모르겠습�
 
 
 # 절대경로, 상대경로
-![img.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2b0eed7c-6b6d-4a76-8986-a4dc50686437/img.png)
+![img.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2b0eed7c-6b6d-4a76-8986-a4dc50686437/img.png) 
 
 |  | 절대경로 | 상대경로 |
 | --- | --- | --- |
-| 정의 | 최상위 디렉토리(파일의 root)부터 시작하여 목적지까지의 전체적인 경로 | 현재 디렉토리를 기준으로 상위, 하위 디렉토리를 이동하며 표현되는 경
-로 |
+| 정의 | 최상위 디렉토리(파일의 root)부터 시작하여 목적지까지의 전체적인 경로 | 현재 디렉토리를 기준으로 상위, 하위 디렉토리를 이동하며 표현되는 경로 |
 | 특징 |  최상위 / 를 포함 | 최상위 / 를 거치지 않고도 이동이 가능함 |
 | 예시 | C:\Program Files\Git | /content/drive/MyDrive |
+| 추가 | ![download.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/572072fd-e9ed-4154-860a-464658f0c793/download.png) |
 
 
 
