@@ -93,8 +93,8 @@ titanic에서 3번째 과제를 다음과 같이 했는데, 답을 모르겠습�
 > 추가 예시
 
 현재 작업 디렉토리 -  /content/drive/MyDrive/MyPythonFiles/TextFiles/A
-![경로2](https://github.com/onukki/insight-10th/assets/144572748/caf319f0-549a-4c87-867c-285d9833e0bc)
 ```
+![경로2](https://github.com/onukki/insight-10th/assets/144572748/caf319f0-549a-4c87-867c-285d9833e0bc)
 
 ```
 > 오류 (파일이 열리지 않음)
