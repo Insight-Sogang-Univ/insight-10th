@@ -91,7 +91,8 @@ titanic에서 3번째 과제를 다음과 같이 했는데, 답을 모르겠습�
 | 예시 | C:\Program Files\Git | /content/drive/MyDrive |
 
 ```
-__현재 작업 디렉토리__ -  /content/drive/MyDrive/MyPythonFiles/TextFiles/A
+### 추가 예시
+현재 작업 디렉토리 -  /content/drive/MyDrive/MyPythonFiles/TextFiles/A
 ![download](https://github.com/onukki/insight-10th/assets/144572748/8453491f-994c-4a5c-ac04-6072eb1922d0)
 
 ```
@@ -110,21 +111,21 @@ __현재 작업 디렉토리__ -  /content/drive/MyDrive/MyPythonFiles/TextFile
 | 예시 | pandas.read_csv("파일경로(이름).csv") | pd.read_excel("파일경로.xlsx", engine = 'openpyxl') |
 
 ```
-**index_col**
+### index_col
 불러온 데이터중 하나의 칼럼을 인덱스로서 설정
 
 pd.read_csv('data/SeoulFloating.csv',index_col='date').head()
 ```
 
 ```
-**usecols**
+### usecols
 데이터중 원하는 칼럼만 선별하여 불러옴
 
 pd.read_csv('data/SeoulFloating.csv',usecols=['date','hour']).head()
 ```
 
 ```
-**오류 (인코딩 과정에서 발생)**
+### 오류 (인코딩 과정에서 발생)
 UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc1 in position 48: invalid start byte
 
 [해결방법] utf-8 방식말고 다른 인코딩 방식을 지정
@@ -133,7 +134,7 @@ df=pd.read_csv('경로/파일명.csv',encoding='CP949')
 
 # preprocessing in data science
 ```
-**데이터 전처리의 과정**
+### 데이터 전처리의 과정
 1. 데이터 세트 확인
 2. 결측값 처리
 3. 이상값 처리
