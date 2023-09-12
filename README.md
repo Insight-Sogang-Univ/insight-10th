@@ -81,8 +81,7 @@ titanic에서 3번째 과제를 다음과 같이 했는데, 답을 모르겠습�
 
 
 # 절대경로, 상대경로
-![경로](https://github.com/onukki/insight-10th/assets/144572748/0622dd94-1816-4af3-ae2f-ce30db746097){: width="60" height="60"}
-<img src="[이미지 URL](https://github.com/onukki/insight-10th/assets/144572748/0622dd94-1816-4af3-ae2f-ce30db746097)" width="100" height="100">
+![경로](https://github.com/onukki/insight-10th/assets/144572748/0622dd94-1816-4af3-ae2f-ce30db746097)>
 
 |  | 절대경로 | 상대경로 |
 | --- | --- | --- |
@@ -95,7 +94,7 @@ titanic에서 3번째 과제를 다음과 같이 했는데, 답을 모르겠습�
 
 현재 작업 디렉토리 -  /content/drive/MyDrive/MyPythonFiles/TextFiles/A
 ```
-![경로2](https://github.com/onukki/insight-10th/assets/144572748/caf319f0-549a-4c87-867c-285d9833e0bc){: width="60" height="60"}
+![경로2](https://github.com/onukki/insight-10th/assets/144572748/caf319f0-549a-4c87-867c-285d9833e0bc)
 
 ```
 > 오류 (파일이 열리지 않음)
@@ -171,12 +170,12 @@ ex) [234,234, 267, 1, 200, 245, 300, 199, 250, 8999, 245] -> 이상치 : 1, 8999
 2) 시각화를 통해 확인 (BoxPlot) -> 분석가의 자의적인 판단이 반영되거나 일일이 수치를 확인해야 하는 번거로움 존재
 3) Z-score
 ```
-![Z-score](https://github.com/onukki/insight-10th/assets/144572748/003b8c40-882b-4164-bf11-ddeef7afa682){: width="60" height="60"}
+![Z-score](https://github.com/onukki/insight-10th/assets/144572748/003b8c40-882b-4164-bf11-ddeef7afa682)
 
 ```
 4) Tukey Fences
 ```
-![Tukey Fences](https://github.com/onukki/insight-10th/assets/144572748/95faa2b4-0789-4f6c-9906-5c7fbbb50f32){: width="60" height="60"}
+![Tukey Fences](https://github.com/onukki/insight-10th/assets/144572748/95faa2b4-0789-4f6c-9906-5c7fbbb50f32)
 
 
 **4. 이상치 처리**
@@ -197,7 +196,33 @@ ex) [234,234, 267, 1, 200, 245, 300, 199, 250, 8999, 245] -> 이상치 : 1, 8999
 ```
 
 ### 변수 가공
+```
 1. 구간화
+- 연속 데이터를 그대로 사용하기 보다는 일정한 구간으로 나눠서 분석
+```
+![구간화](https://github.com/onukki/insight-10th/assets/144572748/3d39dfc5-69ce-4cf2-87fc-f63853ce3246)
+```
 2. 더미 변수
+- 0과 1로 표현되는 
+- 범주형 변수를 연속형 번수로 변환하기 위해 사용
+```
+![더미변수](https://github.com/onukki/insight-10th/assets/144572748/27385be2-ea9e-4b16-acd6-6bfed463df43)
+```
+```
 3. 변환
-4. 스케일
+```
+![변환](https://github.com/onukki/insight-10th/assets/144572748/46a9655c-de6e-49e9-b19e-ce512c813b70)
+```
+5. 스케일
+- 변수의 **단위를 변경**하고 싶거나, 변수의 **분포가 편향**되어 있을 경우, 각 열(변수)에 속하는 데이터 값을 동일한 크기
+  기준으로 나눈 비율로 나타내는 정규화가 필요
+- 가장 자주 사용하는 방법 : Log 함수
+- 유사하지만 좀 덜 자주 사용되는 방법 : 제곱근을 취함
+- 라이브러리 임포트 : from sklearn.preprocessing import StandardScaler, MinMaxScaler, QuantileTransformer, RobustScaler
+
+<StandardScaler>
+각 feature의 평균을 0, 분산을 1로 변경
+<MinMaxScaler>
+모든 feature가 0과 1사이에 위치하게 만
+</MinMaxScaler>
+```
