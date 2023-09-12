@@ -1,4 +1,3 @@
-![download](https://github.com/onukki/insight-10th/assets/144572748/e7a959d3-7077-49f3-8144-12ec12849da0)# insight-10th
 23년 하반기 9, 10기 활동 레포입니다.
 
 ## 목표
@@ -82,9 +81,7 @@ titanic에서 3번째 과제를 다음과 같이 했는데, 답을 모르겠습�
 
 
 # 절대경로, 상대경로
-
 ![경로](https://github.com/onukki/insight-10th/assets/144572748/0622dd94-1816-4af3-ae2f-ce30db746097)
-
 
 |  | 절대경로 | 상대경로 |
 | --- | --- | --- |
@@ -93,14 +90,14 @@ titanic에서 3번째 과제를 다음과 같이 했는데, 답을 모르겠습�
 | 예시 | C:\Program Files\Git | /content/drive/MyDrive |
 
 ```
-### 추가 예시
+<추가 예시>
 현재 작업 디렉토리 -  /content/drive/MyDrive/MyPythonFiles/TextFiles/A
 ![download](https://github.com/onukki/insight-10th/assets/144572748/8453491f-994c-4a5c-ac04-6072eb1922d0)
 
 ```
 
 ```
-### 오류 (파일이 열리지 않음)
+> 오류 (파일이 열리지 않음)
 현재 작업 디렉터리를 확인하고 필요시 현재 디렉터리를 작업하는 폴더로 변경
 → 현재 디렉터리를 기준으로 상대 경로를 활용해 파일을 불러오는 것이 바람직한 접근
 ```
