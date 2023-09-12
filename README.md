@@ -82,7 +82,7 @@ titanic에서 3번째 과제를 다음과 같이 했는데, 답을 모르겠습�
 
 
 # 절대경로, 상대경로
-![img.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2b0eed7c-6b6d-4a76-8986-a4dc50686437/img.png) 
+![경로](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2b0eed7c-6b6d-4a76-8986-a4dc50686437/img.png) 
 
 |  | 절대경로 | 상대경로 |
 | --- | --- | --- |
