@@ -1,4 +1,4 @@
-# insight-10th
+![download](https://github.com/onukki/insight-10th/assets/144572748/e7a959d3-7077-49f3-8144-12ec12849da0)# insight-10th
 23년 하반기 9, 10기 활동 레포입니다.
 
 ## 목표
@@ -91,8 +91,9 @@ titanic에서 3번째 과제를 다음과 같이 했는데, 답을 모르겠습�
 | 예시 | C:\Program Files\Git | /content/drive/MyDrive |
 
 ```
-현재 작업 디렉토리 -  /content/drive/MyDrive/MyPythonFiles/TextFiles/A
-![경로2](https://github.com/onukki/insight-10th/assets/144572748/1e36b6d1-9197-42a4-b21a-30dcc912c5f2)
+__현재 작업 디렉토리__ -  /content/drive/MyDrive/MyPythonFiles/TextFiles/A
+![download](https://github.com/onukki/insight-10th/assets/144572748/8453491f-994c-4a5c-ac04-6072eb1922d0)
+
 ```
 
 ```
