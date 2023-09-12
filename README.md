@@ -82,6 +82,7 @@ titanic에서 3번째 과제를 다음과 같이 했는데, 답을 모르겠습�
 
 # 절대경로, 상대경로
 ![경로](https://github.com/onukki/insight-10th/assets/144572748/0622dd94-1816-4af3-ae2f-ce30db746097){: width="60" height="60"}
+<경로 src="[이미지 URL](https://github.com/onukki/insight-10th/assets/144572748/0622dd94-1816-4af3-ae2f-ce30db746097)" width="100" height="100">
 
 |  | 절대경로 | 상대경로 |
 | --- | --- | --- |
