@@ -7,8 +7,8 @@
 : 파일의 형식에 따라 python으로 읽는 방법이 다름
 - 파일의 형식: CSV, JSON, HTML, MS EXCEL, SQL 등
 - CSV 파일이란? Comma Separated Value의 약자로, 쉼표로 데이터를 구분하는 텍스트 파일
-    -> pandas.read_csv("파일경로.csv")
 - python의 파일 읽는 함수: read_(파일의 형식) (예시: CSV파일은 read_csv()함수로 읽으면 됨)
+  -> pandas.read_csv("파일경로.csv")
 
 3. preprocessing in data science
 : 데이터 분석을 하기 위해서는 데이터 전처리 과정이 필수적
