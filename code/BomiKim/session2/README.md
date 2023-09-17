@@ -2,6 +2,7 @@
 - 수집한 데이터를 다양한 각도에서 관찰하고 이해하는 과정
 -  데이터를 직관적으로 바라보기 위해 통계적인 방법과 데이터 시각화가 사용됨    
 <br>
+
 # 2. Feature 분석 및 시각화
 ## 2-1 Feature의 종류
 - **범주형(Categorical)** : 몇 개의 범주로 나누어진 자료
@@ -12,6 +13,7 @@
   - **이산형(Descrete)** : 정수 단위로 떨어져 셀 수 있는 데이터
   - **연속형(Continuous)** : 연속적인 값을 갖는 데이터 (ex. 키)
 <br>
+
 ## 2-2 Feature의 종류
 |분류|플롯|
 |:---:|:---:|
@@ -19,6 +21,7 @@
 |자료의 개형|Histogram, Box plot, Stem and leaf plot(줄기 - 잎 그래프)|
 |시계열 및 변수 간 관계|Time series plot(시계열 그래프), Scatter plot(산점도)|
 <br>
+
 ## 2-3 사용하는 라이브러리
 - **Matplotlib** : Python 프로그래밍 언어 및 수학적 확장 NumPy 라이브러리를 활용한 플로팅 라이브러리
 - **Seaborn** : matplotlib을 기반으로 만들어져 통계 데이터 시각화에 최적화된 인기 라이브러리
@@ -37,6 +40,7 @@ sns.histplot(x='age', data=data)
 
 ## 3-2. 커널밀도추정 함수 그래프
 - 히스토그램을 매끄럽게 곡선으로 연결한 그래프
+
 ![Alt text](<Untitled (7).png>)
 
 <br>
@@ -55,7 +59,7 @@ sns.histplot(x='age', data=data)
 
 ## 3-4. 박스 플롯
 - 5가지 요약 수치를 제공하여 자료의 분포를 확인
-  
+ 
 ![Alt text](<Untitled (11).png>)
   
 <br>
