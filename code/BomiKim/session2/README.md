@@ -12,6 +12,7 @@
 - **수치형(Numerical)** : 이산형과 연속형으로 이루어진 자료
   - **이산형(Descrete)** : 정수 단위로 떨어져 셀 수 있는 데이터
   - **연속형(Continuous)** : 연속적인 값을 갖는 데이터 (ex. 키)
+  
 <br>
 
 ## 2-2 Feature의 종류
@@ -41,7 +42,7 @@ sns.histplot(x='age', data=data)
 ## 3-2. 커널밀도추정 함수 그래프
 - 히스토그램을 매끄럽게 곡선으로 연결한 그래프
 
-![Alt text](<Untitled (7).png>)
+![Alt text](%EC%BB%A4%EB%84%90%EB%B0%80%EB%8F%84%EC%B6%94%EC%A0%95%ED%95%A8%EC%88%98.png)
 
 <br>
 
@@ -53,21 +54,21 @@ sns.histplot(x='age', data=data)
 **포인트플롯** 
 - 막대 그래프와 모양만 다르고 동일한 정보를 제공
 
-![Alt text](<Untitled (12).png>)
+![Alt text](%ED%8F%AC%EC%9D%B8%ED%8A%B8%ED%94%8C%EB%A1%AF.png)
 
 <br>
 
 ## 3-4. 박스 플롯
 - 5가지 요약 수치를 제공하여 자료의 분포를 확인
  
-![Alt text](<Untitled (11).png>)
+![Alt text](%EB%B0%95%EC%8A%A4%ED%94%8C%EB%A1%AF.png)
   
 <br>
 
 ## 3-5. 바이올린 플롯
 - 박스 플롯과 커널밀도추정 함수 그래프를 합쳐 놓은 그래프
 
-![Alt text](<Untitled (10).png>)
+![Alt text](%EB%B0%94%EC%9D%B4%EC%98%AC%EB%A6%B0%ED%94%8C%EB%A1%AF.png)
 ```
 sns.violinplot(x='class', y='age', data=data)
 ```
@@ -76,7 +77,7 @@ sns.violinplot(x='class', y='age', data=data)
 ## 3-6. 카운트 플롯
 - 각 카테고리 별로 데이터가 얼마나 있는지 수치를 표시
 
-![Alt text](<Untitled (9).png>)
+![Alt text](%EC%B9%B4%EC%9A%B4%ED%8A%B8%ED%94%8C%EB%A1%AF.png)
 ```
 sns.countplot(x='class', data=data)
 ```
@@ -100,7 +101,8 @@ plt.pie(x, labels=labels, autopct='%.1f%%')
 - 데이터 포인트를 연결하는 선으로 구성되어 시간, 순서 또는 다른 연속적인 변수의 변화를 시각적으로 보여줌 
 - 주로 시계열 데이터나 연속적인 데이터의 변화를 분석하거나 비교할 때 사용됨
 
-![Alt text](<Untitled (8).png>)
+![Alt text](%EB%9D%BC%EC%9D%B8%EA%B7%B8%EB%9E%98%ED%94%84.png)
+
  ```
 df.plot(marker='o', color=['r','b','g','y'])
  ``` 
@@ -125,6 +127,3 @@ import matplotlib.pyplot as plt
 
 sns.pairplot(iris)
 ```
-
-[def]: https://www.notion.so/insightsg/EDA-ef38b5f7435145fda9429fba7b25ab3a?pvs=4#89353e1bdcb946f6bd266ceb65ad939c
-[def2]: <Untitled (7)-1.png>
